@@ -69,10 +69,12 @@ export default function Navbar() {
             <FontAwesomeIcon icon={faCaretDown} color="#c1c1c1" />
           </div>
           <div className="navbar-header-toolbar-sign_in">
-            <p>Hello, Sign in</p>
-            <h4>Account & Lists
+            <Link to='/signin'>
+              <p>Hello, Sign in</p>
+              <h4>Account & Lists
             <FontAwesomeIcon icon={faCaretDown} color="#c1c1c1" />
-            </h4>
+              </h4>
+            </Link>
           </div>
           <div className="navbar-header-toolbar-orders">
             <p>Returns</p>
